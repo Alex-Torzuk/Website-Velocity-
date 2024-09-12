@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+
+.container {
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+p {
+    color: #6A859C;
+    line-height: 1.8;
+}
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+}
+.logo {
+    color: #69B9FF;
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+}
+.header__nav ul {
+    display: flex;
+}
+
+.header__nav li + li {
+    margin-left: 40px;
+}
+
+.header__nav a {
+    color: #676770;
+    font-size: 16px;
+    transition: color 0.9s;
+}
+
+.header__nav a:hover{
+    color: #0082F3;
+}
+
+.header__nav a:active{
+    color: #0055A0;
+}
+
+.main {
+}
+.welcome {
+    min-height: 600px;
+    height: 100vh;
+    /* padding: 195px 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    background-color: #676770;
+    background-image: url('image/Welcome-bg.png');
+    background-size: cover;
+}
+.container {
+}
+.welcome__heading {    
+    font-size: 59px;    
+    line-height: 1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+
+}
+.welcome__links > * + * {
+    margin-left: 20px;
+}
+.link__primary {
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    border-radius: 4px;
+    background-color: #69B9FF;
+    padding: 11px 30px;
+    transition: background-color 0.5s;
+}
+
+.link__primary:hover{
+    background-color: #0055A0;
+}
+
+.link__primary:active{
+    background-color: #041c32;
+}
+
+.link {    
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    transition: border-color 0.1s, background-color 0.1s;
+
+}
+
+.link:hover {
+    background-color: rgb(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.link:active {
+    background-color: rgb(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
+}
