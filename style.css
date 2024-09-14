@@ -26,6 +26,7 @@ p {
     top: 0;
     left: 0;
     z-index: 100;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
 }
 
 .header__container {
@@ -132,4 +133,99 @@ p {
 .link:active {
     background-color: rgb(0, 0, 0, 0.2);
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.about {
+    
+}
+.common-section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.title__wrapper {
+    margin-bottom: 60px;
+}
+.title {
+    margin-bottom: 17px;
+    color: #676770;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.subtitle {
+    color: #8E8E9C;    
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.about .cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.about .card {
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #DCEBF7;
+    padding: 35px 15px 25px;
+}
+
+.about .card img {
+    width: 94px;
+    height: 94px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.about .card h4 {
+    color: #676770;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.servises {
+}
+.common-section--dark {
+    background-color: #192024;
+}
+
+.common-section--dark * {
+    color: #fff;
+}
+
+.common-section--dark .subtitle{
+    color: #E8E8E8;
+}
+
+
+.servises .cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.servises .card {
+    width: 460px;
+}
+
+.servises .card img {
+    margin-bottom: 20px;
+}
+
+.servises .card h4 {
+    color: #FFF;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+
+}
+
+.servises .link {
+    margin-top: 15px;
 }
