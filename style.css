@@ -18,6 +18,10 @@ p {
     line-height: 1.8;
 }
 
+.hide {
+    display: none !important;
+}
+
 .header {
     width: 100%;
     padding: 20px 0;
@@ -259,6 +263,19 @@ p {
 
 .tabs__nav button + button {
     margin-left: 15px;
+}
+
+.tabs__item {
+    animation: fade 1s;
+}
+
+@keyframes fade {
+    from{
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .tabs__item img {
